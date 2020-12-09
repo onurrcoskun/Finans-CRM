@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finans CRM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-logo">
+        <i data-feather="hexagon" class="icon"></i>
+        <span class="brand">Finans CRM</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="active"><i data-feather="home" class="icon"></i> <span class="nav-link-text">Anasayfa</span></a></li>
+        <li><a href="#"><i data-feather="bar-chart" class="icon"></i> <span class="nav-link-text">İstatistik</span></a></li>
+        <li><a href="#"><i data-feather="mail" class="icon"></i> <span class="nav-link-text">Mesaj</span></a></li>
+        <li><a href="#"><i data-feather="user" class="icon"></i> <span class="nav-link-text">Profil</span></a></li>
+        <li><a href="#"><i data-feather="file" class="icon"></i> <span class="nav-link-text">Dokümanlar</span></a></li>
+      </ul>
+      <div class="nav-document">
+        <img class="image" src="unnamed.jpg" alt="documents" />
+        <div class="report-container">
+            <span class="title">PDF Rapor</span>
+            <span class="description">Rapor Detayları</span>
+            <button class="btn" value="Download">İndir</button>
+        </div>
+    </div>
+    </nav>
+    <div class="remaining">
+      <header class="header">
+        <div class="header-search" >
+            <i data-feather="search" class="icon"></i>
+            <input type="text" class="search" placeholder="Search...">
+        </div>
+        <div class="header-menu">
+            <a class="change-view" href="#">
+                <i data-feather="layout" class="icon"></i>
+                <span class="text">Görünüm Değiştir</span>
+            </a>
+            
+            <a class="header-notifications" href="#">
+                <i data-feather="bell" class="icon"></i>
+            </a>
+            <a class="header-menu" href="#">
+                <i data-feather="menu" class="icon"></i>
+            </a>
+        </div>
+
+
+      </header>
+      <main class="main">İçerik Değiştir</main>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
