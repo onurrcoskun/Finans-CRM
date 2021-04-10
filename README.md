@@ -1,2 +1,2 @@
 # Finans-CRM
-**Html ve css ile basit bir Crm anasayfa tasarım uygulamasıdır.**
+**Html ve css ile basit bir CRM anasayfa tasarım uygulamasıdır.**
